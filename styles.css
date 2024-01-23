@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap'); 
+
+body{
+    font-family: oregano;
+    color: black;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight:600;
+    color: blue;
+}
+
+h6
+{
+    font-size: 22px;
+}
+
+
+a
+{
+    color: blueviolet;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+
+}
+
+a :hover
+{
+    color: red;
+}
+
+img{
+    min-width: 100%;
+}
+
+/*button decoration*/
+.btn
+{
+    border-radius: 0;
+    padding: 14px 20px;
+}
+
+.btn-primary
+{
+    color:blanchedalmond;
+    font-weight: 500;
+    border-color: aquamarine;
+    background-color: brown;
+}
+
+.btn-primary:hover
+{
+    border-color: rgb(19, 93, 68);
+    background-color: rgb(74, 4, 4);
+    color: white;
+}
+
+.btn-brand
+{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    border-color: rgb(141, 124, 12);
+    background-color: rgb(88, 53, 11);
+}
+
+section
+{
+    /* padding-top: auto;
+    padding-bottom: auto; */
+}
+
+.service
+{
+    height: 820px;
+    width: auto;
+}
+
+.slide-1
+{
+    background: url(Images/HeroSection/heroImage.jpg);
+}
+
+.slide-2
+{
+    background: linear-gradient(rgba(128, 124, 124,0.2),rgb(166, 162, 162)), url(Images/HeroSection/slide2.jpeg);
+}
+
+.slide-3
+{
+    background: linear-gradient(rgba(193, 191, 191, 0.2),rgb(221, 211, 211)), url(Images/HeroSection/slide3.jpeg);
+}
+
+.slide-4
+{
+    background: linear-gradient(rgba(128, 124, 124,0.2),rgb(166, 162, 162)), url(Images/Menu/Malaysian.jpeg);
+}
+
+.bg-cover
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-prev,.carousel-control-next
+{
+    background-color: rgba(0,0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+
+/*About*/
+.aboutH1
+{
+    margin-top: 25px;
+}
+
+.about-content
+{
+    padding-top: 75px;
+    text-align: left;
+}
+
+/* .about-image
+{
+    padding-top: 10px;
+    height: 350px;
+} */
+
+/* .aboutImage
+{
+    height: 450px;
+    width: auto;
+    
+} */
+
+.managementImage
+{
+    height: 150px;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */  
+    border-radius: 50%;
+}
+
+.followUs
+{
+    margin-top: 100px
+}
+
+.followUsIcon
+{
+    height: 50px;
+    width: auto;
+    border-radius: 100%;
+    margin-top: 200px;
+
+}
+
+.about-bg
+{
+    background-image: url(Images/About/aboutBackground.jpg);    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*------*/
+
+/*Menu*/
+
+.intro-text
+{
+    margin-bottom:40px;
+    text-align: center;
+    margin: 14px auto 0 auto;
+}
+
+.intro-text p
+{
+    max-width: 500px;
+    margin: 14px auto 0 auto;
+}
+
+.nav-pills .nav-link
+{
+    background-color: rgb(55, 47, 8);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color:rgb(255, 255, 255);   
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav-pills .nav-link.active
+{
+    background-color: burlywood;
+    color: rgb(55, 47, 8);
+    font-weight: 20px;
+}
+
+.menu-all-image
+{
+    height: 200px;
+    width:auto;
+    /*border-radius: 50%*/    
+}
+
+.menu-item .stars
+{
+    color: orange;
+}
+
+.shadow-on-hover
+{
+    transition: all 0.4s;
+}
+
+.shadow-on-hover:hover
+{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.container-services{
+    background-color: black;
+    height: 820px;
+    width:auto;
+    font-family: oregano;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+ .logo 
+{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: oregano;
+    padding-top: 40px;
+    margin-bottom: 25px;
+
+}
+
+
+.cards{
+    width: 1200px;
+    margin: 40px auto;
+    padding-top: 60px;
+   
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 40px;
+   /* align-items: center;*/
+    justify-content: center;
+    
+}
+
+h2
+{
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+img, .image-button {
+    width: 100%;
+    height: auto;
+    border-radius: 0%; /* Correct the border-radius value for a circular shape */
+    display: flex; /* Use 'flex' instead of '-ms-flexbox' */
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    transition: transform 0.2s; /* Add a smooth transition effect */
+} 
+
+/* Apply styles to image buttons when hovered */
+.image-button:hover {
+    transform: scale(1.2); /* Increase the size by 20% on hover (adjust as needed) */
+}
+
+
+
+.container-contacts
+ {
+    padding: 0;
+    margin: 0;
+    background-image: url('im1.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(160, 149, 144);
+    
+
+h1, h2 {
+        text-align: center;
+        color: brown;
+    }
+
+    .col-md-5 img {
+        width: 300px;
+        height: 600px;
+    }
+
+    .form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .three-col-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .three-col-grid img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+
+h1, h2 {
+    text-align: center;
+    color: brown;
+}
+img {
+    align-items: center;
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    float:right;
+ 
+}
+
+.btn{
+    background-color: rgb(94, 12, 26);
+    border-color: rgb(49, 4, 4);
+    color:aliceblue;
+    text-align: right;
+}
+.btn:hover{
+    background-color: brown;
+    border-color: brown;
+
+
+.contact-info 
+{
+    text-align: center;
+    padding: 24px;
+}
+
+.four-col-grid {
+    display: grid;
+    align-items: center;
+}
+
+.form {
+    width: 50%;
+    margin-top: 40px;
+    padding: 60px;
+}
+
+.form-group,
+.form-control {
+    width: 50%;
+}
+
+.form-control {
+    background-color: burlywood;
+    border: 1px solid transparent;
+    padding: 16px;
+}
+
+.form-control:focus {
+    outline: 0;
+    border-color: brown;
+}
+
+}
+ }
+
+/*Footer*/
+
+footer
+{
+    background-image: url(images/Footer/image.png);    
+    color: rgb(242, 239, 235);
+    font-size: 12px;
+    height: 300px;
+    width: auto;
+    padding: 16px 24px 16px 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+
+}
+
+.footer-icons
+{
+    height: 50px;
+    width: auto;
+    position: d;
+}
+
+.nav-item
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link
+{
+    padding:none;
+}
+
+.footerCornerImage
+{
+    height: 200px;
+    width: auto;
+}
+
+.footerLogo
+{
+    height: 150px;
+    width :auto;
+}
+
+
+.contact-bg
+{
+    height: 350px;
+    width: 350px;
+}
+
+/* .container-contact
+{
+    background-image: url(Images/Contact/background.jpg);
+   
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.section-with-background
+{
+    background-image: url(Images/Contact/background_1.jpg);    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 820px;
+    width: auto;
+}
+
+
+
+
+
+
